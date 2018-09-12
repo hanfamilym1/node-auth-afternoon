@@ -1,11 +1,15 @@
 {
-  "name": "node-auth-afternoon",
+  "name": "auth-afternoon",
   "version": "1.0.0",
   "description": "Node Auth 1 - Afternoon",
   "main": "index.js",
   "dependencies": {
+    "dotenv": "^6.0.0",
     "express": "^4.15.3",
-    "express-session": "^1.15.3"
+    "express-session": "^1.15.3",
+    "passport": "^0.4.0",
+    "passport-auth0": "^1.0.0",
+    "react": "^16.5.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -21,5 +25,6 @@
   "bugs": {
     "url": "https://github.com/devlemire/node-auth-afternoon/issues"
   },
-  "homepage": "https://github.com/devlemire/node-auth-afternoon#readme"
+  "homepage": "https://github.com/devlemire/node-auth-afternoon#readme",
+  "proxy": "http://localhost:3001"
 }
